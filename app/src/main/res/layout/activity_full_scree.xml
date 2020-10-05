@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#0C0C0C"
+    android:layout_height="match_parent"
+
+    tools:context=".FullScree">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/potoview"
+        android:layout_width="match_parent"
+        android:layout_height="564dp">
+
+    </com.github.chrisbanes.photoview.PhotoView>
+
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#00BCD4"
+        android:onClick="setwallpaperevet"
+        android:padding="10dp"
+        android:text="Set Wallpaper"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </Button>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00BCD4"
+        android:layout_marginTop="5dp"
+        android:onClick="dowaloadwallpaperevet"
+        android:padding="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="Dowload Wallpaper"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </Button>
+</LinearLayout>
